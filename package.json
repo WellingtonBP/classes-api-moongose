@@ -1,0 +1,36 @@
+{
+  "name": "api-nivelamento-tindin",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Desafio nivelamento desenvolvedor back-end da tindin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Sala",
+    "Aulas",
+    "API",
+    "tindin",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Wellington Barrada Pacheco",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "helmet": "^4.4.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  }
+}
